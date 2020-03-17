@@ -558,6 +558,25 @@ article p {
 .projects .card:hover img {
   transform: scale(1.1);
 }
+
+.projects .card a {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #ffc400;
+  border: 1px solid #ffc400;
+  padding: 5px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  z-index: 10;
+  transition: all 0.4s ease;
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1);
+}
+.projects .card a:hover {
+  background: black;
+  color: #ffc400;
+}
 /* .projects .card h3 {
     height: 20%;
     padding: 20px 0;
