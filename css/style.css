@@ -732,7 +732,7 @@ div.profile-grid {
     position: absolute;
     top: 70px;
     width: 300px;
-    height: calc(100vh - 200px);
+    height: calc(100vh - 150px);
     min-height: 400px;
     background: rgb(255, 255, 255);
     right: -300px;
