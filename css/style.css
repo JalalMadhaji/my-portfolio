@@ -262,7 +262,7 @@ article p {
 /* .about-hero article {
     width: 50%;
 } */
-/* 
+/*
 .about-hero .right {
     width: 40%;
 } */
@@ -732,8 +732,8 @@ div.profile-grid {
     position: absolute;
     top: 70px;
     width: 300px;
+    height: calc(100vh - 200px);
     min-height: 400px;
-    height: calc(100vh - 90px);
     background: rgb(255, 255, 255);
     right: -300px;
     z-index: 1000000;
