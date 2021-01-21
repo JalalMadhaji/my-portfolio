@@ -206,9 +206,13 @@ article p {
   margin: 10px auto;
 }
 
-/* main {
-    z-index: 9999;
-} */
+main {
+  min-height: 85vh;
+  display: flex;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: center;
+}
 .hero {
   /* position: absolute;
     top: 50%;
@@ -248,9 +252,9 @@ article p {
   color: rgba(255, 255, 255, 0.04);
   z-index: -1;
 }
-.main-hero {
+/* .main-hero {
   padding: 150px 0 50px;
-}
+} */
 .hero article {
   position: relative;
   padding: 20px;
